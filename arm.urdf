@@ -2,7 +2,7 @@
   <link name="base_link">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/base_cylinder.stl" scale ="0.0001 0.0001 0.0001"/>
+          <mesh filename="package://servoarm_description/meshes/base_cylinder.stl" scale ="0.0001 0.0001 0.0001"/>
          </geometry>
          <origin xyz="0 0 0.01"/>
          <material name="black">
@@ -11,7 +11,7 @@
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/base_cylinder.stl" scale ="0.0001 0.0001 0.0001"/>
+          <mesh filename="package://servoarm_description/meshes/base_cylinder.stl" scale ="0.0001 0.0001 0.0001"/>
          </geometry>
          <origin xyz="0 0 0.01"/>
         </collision>
@@ -20,14 +20,14 @@
   <link name="platform">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/top_plate.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/top_plate.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin xyz="0 0 0"/>
          <material name="black"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/top_plate.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/top_plate.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin xyz="0 0 0"/>
         </collision>
@@ -36,14 +36,14 @@
   <link name="lower_arm">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/lower_arm.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/lower_arm.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin xyz="0 0 0"/>
          <material name="black"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/lower_arm.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/lower_arm.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin xyz="0 0 0"/>
         </collision>
@@ -52,14 +52,14 @@
   <link name="top_arm">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/top_arm.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/top_arm.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 1.59 0" xyz="0 0 0"/>
          <material name="black"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/top_arm.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/top_arm.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 1.59 0" xyz="0 0 0"/>
         </collision>
@@ -68,14 +68,14 @@
   <link name="wrist">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/wrist.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/wrist.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
          <material name="black"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/wrist.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/wrist.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
         </collision>
@@ -84,7 +84,7 @@
   <link name="clawbase">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawbase.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawbase.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 3.18 0" xyz="0 0 0"/>
          <material name="white">
@@ -93,7 +93,7 @@
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawbase.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawbase.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 3.18 0" xyz="0 0 0"/>
         </collision>
@@ -102,14 +102,14 @@
   <link name="clawr">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawr.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawr.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
          <material name="white"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawr.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawr.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
         </collision>
@@ -118,14 +118,14 @@
   <link name="clawl">
 	<visual>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawl.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawl.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <material name="white"/>
          <origin rpy="0 0 0" xyz="0 0 0"/>
         </visual>
 	<collision>
          <geometry>
-          <mesh filename="package://my_arm_xacro/meshes/clawl.stl" scale ="0.001 0.001 0.001"/>
+          <mesh filename="package://servoarm_description/meshes/clawl.stl" scale ="0.001 0.001 0.001"/>
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
         </collision>
